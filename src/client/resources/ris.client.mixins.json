@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "package": "fr.jaeforzs.ris.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "CreateWorldScreenMixin",
+    "CreativeSlotMixin",
+    "CyclingButtonWidgetMixin",
+    "DeathScreenMixin",
+    "GameOptionsMixin",
+    "GameRendererMixin",
+    "HandledScreenMixin",
+    "HeldItemFeatureRendererMixin",
+    "HeldItemRendererMixin",
+    "InventoryUpdateMixin",
+    "ItemPickupMixin",
+    "OptionSliderWidgetAccessor",
+    "PlayerEntityModelMixin",
+    "RecipeBookWidgetMixin",
+    "SimpleOptionMixin",
+    "SliderWidgetMixin",
+    "TexturedButtonWidgetMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": []
+}

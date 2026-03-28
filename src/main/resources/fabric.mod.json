@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "ris",
+	"version": "${version}",
+	"name": "Speedrunning A Random Item",
+	"description": "This mod almost completely repeats the heading of the YouTuber KompotikIvun",
+	"authors": [
+		"Jaeforzs"
+	],
+	"contact": {
+
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ris/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.jaeforzs.ris.SpeedrunningARandomItem"
+		],
+		"client": [
+			"fr.jaeforzs.ris.SpeedrunningARandomItemClient"
+		]
+	},
+	"mixins": [
+		"ris.mixins.json",
+		{
+			"config": "ris.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "targets": {},
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/color_convolve",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:main"
+        }
+      ],
+      "output": "minecraft:main",
+      "uniforms": {
+        "ColorConfig": [
+          {"type": "vec3", "value": [0.2126, 0.7152, 0.0722]},
+          {"type": "vec3", "value": [0.2126, 0.7152, 0.0722]},
+          {"type": "vec3", "value": [0.2126, 0.7152, 0.0722]}
+        ]
+      }
+    }
+  ]
+}
