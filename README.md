@@ -1,1 +1,1 @@
-This mod almost completely repeats the heading of the YouTuber KompotikIvun
+This mod almost completely repeats the rubric of the YouTuber KompotikIvun
