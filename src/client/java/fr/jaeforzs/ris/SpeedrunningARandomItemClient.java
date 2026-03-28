@@ -22,6 +22,7 @@ public class SpeedrunningARandomItemClient implements ClientModInitializer {
 	public void onInitializeClient() {
 		LOGGER.info("Initializing Random Item Speedrun (Client)...");
 
+
 		ClientTimerManager.initialize();
 		ClientComplicationManager.initialize();
 		ClientNetworkManager.initialize();

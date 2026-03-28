@@ -16,6 +16,7 @@
     "HeldItemRendererMixin",
     "InventoryUpdateMixin",
     "ItemPickupMixin",
+    "KeyBindingMixin",
     "OptionSliderWidgetAccessor",
     "PlayerEntityModelMixin",
     "RecipeBookWidgetMixin",
